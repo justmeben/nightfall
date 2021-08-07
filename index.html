@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>The Town HTML CSS Template</title>
+    <title>Nightfall Mafia Club</title>
     <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" />
     <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
@@ -75,7 +75,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img src="img/the-town-01.jpg" alt="Image" class="img-fluid tm-intro-img" />
+                    <img src="img/mafiamain1.jpg" alt="Image" class="tm-intro-img" style='max-width: 450px;' />
                 </div>
             </div>
 
@@ -117,7 +117,7 @@
             </div>
             <div class="row" style='dir: ltr; text-align: left;'>
                 <div class="col-12">
-                    <div class="mx-auto tm-gallery-container">
+                    <div class="mx-auto tm-gallery-container" dir='ltr' style='direction: ltr'>
                         <div class="grid tm-gallery">
                             <a href="img/gallery-img-01.jpg">
                                 <figure class="effect-honey tm-gallery-item">
@@ -359,8 +359,9 @@
 
             // Gallery
             $('.tm-gallery').slick({
-                dots: true,
-                infinite: false,
+                rtl: false,
+                dots: false,
+                infinite: true,
                 slidesToShow: 5,
                 slidesToScroll: 2,
                 responsive: [{

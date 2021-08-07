@@ -284,6 +284,12 @@ a:focus {
     font-size: 26px;
 }
 
+.img-fluid {
+    object-fit: cover;
+    height: 300px;
+    width: 200px;
+}
+
 
 /* Hover Effect */
 
